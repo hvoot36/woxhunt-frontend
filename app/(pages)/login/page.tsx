@@ -1,9 +1,10 @@
 "use client"
+import Image from "next/image";
 
 export default function LoginPage() {
   return (
     <>
-      <h1>Login Page</h1>
+      <Image src="/woxhunt-logo.png" width={200} height={200} alt=""/>
     </>
   );
 }
